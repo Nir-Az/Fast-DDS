@@ -185,6 +185,9 @@ endif()
 
 option(SQLITE3_SUPPORT "Activate SQLITE3 support" ON)
 
+# Allow the user choose how to build fastdds library runtime (/MT /MD /MTd /MDd flag )
+option(BUILD_WITH_STATIC_CRT "Build with static link CRT" OFF)
+
 ###############################################################################
 # SHM as Default transport
 ###############################################################################
